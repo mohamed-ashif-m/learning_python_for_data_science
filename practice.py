@@ -25,4 +25,8 @@ plt.title('Distribution of Column')
 plt.show()
 plt.clf()
 
+# Scatter plot
+sns.scatterplot(x='feature1', y='feature2', data=data)
+plt.title('Feature1 vs Feature2')
+plt.show()
 
