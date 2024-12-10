@@ -19,3 +19,9 @@ print(data.info())
 # Summary statistics
 print(data.describe())
 
+# Distribution of a variable
+sns.histplot(data['column_name'], kde=True)
+plt.title('Distribution of Column')
+plt.show()
+
+
