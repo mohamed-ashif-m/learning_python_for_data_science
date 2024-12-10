@@ -6,3 +6,16 @@ import seaborn as sns       # For advanced visualizations
 # Configure plots
 plt.style.use('ggplot')
 sns.set_theme()
+
+# Load data from a CSV file
+data = pd.read_csv('data.csv')
+
+# Display the first few rows
+print(data.head())
+
+# Basic information about the dataset
+print(data.info())
+
+# Summary statistics
+print(data.describe())
+
