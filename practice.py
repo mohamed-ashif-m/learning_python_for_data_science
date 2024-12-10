@@ -23,5 +23,6 @@ print(data.describe())
 sns.histplot(data['column_name'], kde=True)
 plt.title('Distribution of Column')
 plt.show()
+plt.clf()
 
 
