@@ -30,3 +30,9 @@ sns.scatterplot(x='feature1', y='feature2', data=data)
 plt.title('Feature1 vs Feature2')
 plt.show()
 plt.clf()
+
+# Correlation heatmap
+corr = data.corr()
+sns.heatmap(corr, annot=True, cmap='coolwarm')
+plt.title('Correlation Matrix')
+plt.show()
