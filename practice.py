@@ -37,3 +37,12 @@ sns.heatmap(corr, annot=True, cmap='coolwarm')
 plt.title('Correlation Matrix')
 plt.show()
 plt.clf()
+
+# Check for missing values
+print(data.isnull().sum())
+
+# Fill missing values (example: replacing NaNs with the mean)
+data['column_name'].fillna(data['column_name'].mean(), inplace=True)
+
+# Drop missing rows or columns
+data.dropna(inplace=True)  # Removes all rows with NaN values
