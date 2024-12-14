@@ -49,3 +49,6 @@ data.dropna(inplace=True)  # Removes all rows with NaN values
 # Mean, Median, Mode
 print(f"Mean: {data['column_name'].mean()}")
 print(f"Median: {data['column_name'].median()}")
+print(f"Mode: {data['column_name'].mode()}")
+
+
