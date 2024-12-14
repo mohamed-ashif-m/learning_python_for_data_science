@@ -48,3 +48,4 @@ data['column_name'].fillna(data['column_name'].mean(), inplace=True)
 data.dropna(inplace=True)  # Removes all rows with NaN values
 # Mean, Median, Mode
 print(f"Mean: {data['column_name'].mean()}")
+print(f"Median: {data['column_name'].median()}")
