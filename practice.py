@@ -51,4 +51,10 @@ print(f"Mean: {data['column_name'].mean()}")
 print(f"Median: {data['column_name'].median()}")
 print(f"Mode: {data['column_name'].mode()}")
 
+# Variance and Standard Deviation
+print(f"Variance: {data['column_name'].var()}")
+print(f"Standard Deviation: {data['column_name'].std()}")
+
+
+
 
