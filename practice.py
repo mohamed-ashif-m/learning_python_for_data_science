@@ -55,6 +55,10 @@ print(f"Mode: {data['column_name'].mode()}")
 print(f"Variance: {data['column_name'].var()}")
 print(f"Standard Deviation: {data['column_name'].std()}")
 
+# Initialize a list with integers from 1 to 5
+my_list = [1, 2, 3, 4, 5]
+# Remove the element with the value 5 from the list
+my_list.remove(5)
 
 
 
