@@ -62,7 +62,8 @@ my_list.remove(5)
 
 # Create a new feature
 data['new_feature'] = data['feature1'] * data['feature2']
-
+# Encode categorical data
+data['category_encoded'] = data['category_column'].astype('category').cat.codes
 
 
 
