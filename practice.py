@@ -60,5 +60,10 @@ my_list = [1, 2, 3, 4, 5]
 # Remove the element with the value 5 from the list
 my_list.remove(5)
 
+# Create a new feature
+data['new_feature'] = data['feature1'] * data['feature2']
+
+
+
 
 
