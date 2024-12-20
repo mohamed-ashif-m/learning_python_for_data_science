@@ -79,6 +79,10 @@ joblib.dump(model, 'linear_model.pkl')
 
 # Load the model
 loaded_model = joblib.load('linear_model.pkl')
+# One-Hot Encoding
+data = pd.get_dummies(data, columns=['categorical_column'])
+
+
 
 
 
