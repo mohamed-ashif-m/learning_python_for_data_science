@@ -87,6 +87,12 @@ plt.title('Histogram of Numeric Column')
 plt.xlabel('Value')
 plt.ylabel('Frequency')
 plt.show()
+# Plot a correlation heatmap
+corr = df.corr()
+sns.heatmap(corr, annot=True, cmap='coolwarm')
+plt.title('Correlation Heatmap')
+plt.show()
+
 
 
 
