@@ -92,7 +92,10 @@ corr = df.corr()
 sns.heatmap(corr, annot=True, cmap='coolwarm')
 plt.title('Correlation Heatmap')
 plt.show()
-
+# Boxplot to detect outliers
+sns.boxplot(x='category_column', y='numeric_column', data=df)
+plt.title('Boxplot of Numeric Column by Category')
+plt.show()
 
 
 
