@@ -81,6 +81,15 @@ from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 data['encoded_column'] = le.fit_transform(data['categorical_column'])
 
+# Plot a histogram
+plt.hist(df['numeric_column'], bins=30, color='blue', alpha=0.7)
+plt.title('Histogram of Numeric Column')
+plt.xlabel('Value')
+plt.ylabel('Frequency')
+plt.show()
+
+
+
 
 
 
