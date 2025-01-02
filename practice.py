@@ -97,10 +97,10 @@ sns.boxplot(x='category_column', y='numeric_column', data=df)
 plt.title('Boxplot of Numeric Column by Category')
 plt.show()
 
+width = [8.36, 15.11, 19.92, 8.25]
 
-
-
-
+for index, x in enumerate (width):
+  print('Room' + str(index + 1) + ' -', str(x))
 
 
 
