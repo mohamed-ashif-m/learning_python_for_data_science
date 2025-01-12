@@ -1,4 +1,5 @@
 #Here I have practice what I have learned in Data Science in Python
+#correlation coefficient 
 In Python, np.corrcoef is a function in the numpy library that calculates the correlation coefficient between two or more arrays of data. The correlation coefficient measures how strongly two variables are related to each other.
 
 A positive correlation means that as one variable increases, the other tends to increase as well.
