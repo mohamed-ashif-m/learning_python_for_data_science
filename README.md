@@ -1,21 +1,22 @@
 #Here I have practice what I have learned in Data Science in Python
-#correlation coefficient 
+# correlation coefficient 
 In Python, np.corrcoef is a function in the numpy library that calculates the correlation coefficient between two or more arrays of data. The correlation coefficient measures how strongly two variables are related to each other.
 
-A positive correlation means that as one variable increases, the other tends to increase as well.
-A negative correlation means that as one variable increases, the other tends to decrease.
-A zero correlation means there is no relationship between the variables.
+- A positive correlation means that as one variable increases, the other tends to increase as well.
+- A negative correlation means that as one variable increases, the other tends to decrease.
+- A zero correlation means there is no relationship between the variables.
+- 
 Explanation:
 np.corrcoef returns a correlation matrix, where each value in the matrix represents the correlation coefficient between the corresponding pairs of data.
 
 Example:
 import numpy as np
 
-# Two arrays of data
+## Two arrays of data
 x = np.array([1, 2, 3, 4, 5])
 y = np.array([5, 4, 3, 2, 1])
 
-# Calculate the correlation coefficient between x and y
+## Calculate the correlation coefficient between x and y
 correlation_matrix = np.corrcoef(x, y)
 
 print(correlation_matrix)
@@ -39,7 +40,7 @@ np.corrcoef returns a correlation matrix, where each value in the matrix represe
 Example:
 import numpy as np
 
-# Two arrays of data
+## Two arrays of data
 x = np.array([1, 2, 3, 4, 5])
 y = np.array([5, 4, 3, 2, 1])
 
@@ -65,11 +66,11 @@ Let’s see a case with a positive correlation:
 
 import numpy as np
 
-# Two arrays of data
+## Two arrays of data
 x = np.array([1, 2, 3, 4, 5])
 y = np.array([1, 2, 3, 4, 5])
 
-# Calculate the correlation coefficient between x and y
+## Calculate the correlation coefficient between x and y
 correlation_matrix = np.corrcoef(x, y)
 
 print(correlation_matrix)
@@ -80,7 +81,7 @@ Output:
 
 Here, x and y are perfectly positively correlated because as x increases, y increases in the same way.
 
-Summary:
+## Summary:
 np.corrcoef helps you understand the relationship between multiple data sets (arrays).
 It returns a correlation matrix showing how each pair of variables is correlated.
 The values range from -1 (perfect negative correlation) to 1 (perfect positive correlation).
