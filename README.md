@@ -6,10 +6,10 @@ In Python, np.corrcoef is a function in the numpy library that calculates the co
 - A negative correlation means that as one variable increases, the other tends to decrease.
 - A zero correlation means there is no relationship between the variables.
 - 
-Explanation:
+## Explanation:
 np.corrcoef returns a correlation matrix, where each value in the matrix represents the correlation coefficient between the corresponding pairs of data.
 
-Example:
+## Example:
 import numpy as np
 
 ## Two arrays of data
