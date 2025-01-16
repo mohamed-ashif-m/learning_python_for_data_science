@@ -5,7 +5,7 @@ In Python, np.corrcoef is a function in the numpy library that calculates the co
 - A positive correlation means that as one variable increases, the other tends to increase as well.
 - A negative correlation means that as one variable increases, the other tends to decrease.
 - A zero correlation means there is no relationship between the variables.
-- 
+
 ## Explanation:
 np.corrcoef returns a correlation matrix, where each value in the matrix represents the correlation coefficient between the corresponding pairs of data.
 
@@ -103,3 +103,12 @@ You want to see if there’s a relationship between the price changes of these t
 an outlier is a data point that is significantly different from the other data points in a dataset. It stands out because it is much larger, much smaller, or otherwise unusual compared to the rest of the data.
 
 Outliers can occur due to measurement errors, data entry mistakes, or genuine anomalies in the data. They can have a big impact on the results of data analysis, so it’s important to identify and handle them carefully.
+## Real-Life Example:
+Imagine you are analyzing the heights of students in a classroom. Most students are between 150 cm and 180 cm tall. However, one student’s height is recorded as 250 cm.
+
+- This 250 cm is an outlier because it is unusually high compared to the other students.
+- It might be due to:
+A typing mistake (e.g., the actual height was 150 cm).
+A measurement error.
+Or, it could genuinely be the height of someone very tall (rare but possible).
+Handling outliers depends on their cause. If it’s a mistake, you might correct or remove it. If it’s real, you may need to analyze its impact separately.
