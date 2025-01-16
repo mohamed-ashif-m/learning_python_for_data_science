@@ -98,3 +98,8 @@ Let’s assume you have the following stock prices (in dollars):
 Stock A: [100, 102, 104, 106, 108]
 Stock B: [50, 52, 54, 56, 58]
 You want to see if there’s a relationship between the price changes of these two stocks.
+
+### Outlier
+an outlier is a data point that is significantly different from the other data points in a dataset. It stands out because it is much larger, much smaller, or otherwise unusual compared to the rest of the data.
+
+Outliers can occur due to measurement errors, data entry mistakes, or genuine anomalies in the data. They can have a big impact on the results of data analysis, so it’s important to identify and handle them carefully.
